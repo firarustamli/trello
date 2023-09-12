@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+}
+.trello{
+    background-image: url(https://trello.com/assets/d947df93bc055849898e.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 20px;
+}
+.right >div{
+    border: 3px solid transparent;
+    padding: 5px 10px;
+}
+
+  .task-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  
+    background: #f4f4f4;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  
+    padding: 12px;
+    border-radius: 4px;
+    width: 225px;
+    min-height: 120px;
+  
+    flex-shrink: 0;
+  }
+  
+ 
+  
+  .is-dragging {
+    scale: 1.05;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background: rgb(50, 50, 50);
+    color: white;
+    transform: rotate(3deg);
+ }
+ .fisrt_header{
+    display: flex;
+    flex-direction: row;
+  }
+ .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 1px solid #C6CDD5;
+    border-radius: 4px;
+    outline: none;
+    background-color: transparent;
+    width: 250px;
+    padding: 0 8px;
+    margin-right: 20px;
+    margin-left: auto;
+  }
+  
+  .search-box {
+    flex-grow: 1; 
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none; 
+    outline: none;
+  }
+ 
